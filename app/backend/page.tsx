@@ -2,7 +2,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 'use client'
 
-export const maxDuration = 120
+export const maxDuration = 60
 
 import dynamic from 'next/dynamic'
 import 'tldraw/tldraw.css'
