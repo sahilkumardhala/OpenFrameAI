@@ -24,7 +24,7 @@ import { SlideShapeUtil } from '../../Slides/SlideShapeUtil'
 import { SlidesPanel } from '../../Slides/SlidesPanel'
 import { $currentSlide, getSlides, moveToSlide } from '../../Slides/useSlides'
 import { Links } from '../../components/Links'
-import { makeRealSettings } from '../../lib/settings'
+import { modelSettings } from '../../lib/settings'
 
 debugEnableLicensing()
 
@@ -100,7 +100,7 @@ export default function Home() {
 		const value = localStorage.getItem('makereal_settings_2')
 		if (value) {
 			const json = JSON.parse(value)
-			makeRealSettings.set(json)
+			modelSettings.set(json)
 		}
 	}, [])
 

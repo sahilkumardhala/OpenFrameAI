@@ -13,7 +13,7 @@ import { useEffect } from 'react'
 import { debugEnableLicensing, DefaultMainMenu, DefaultMainMenuContent, useDialogs } from 'tldraw'
 import { Links } from '../components/Links'
 import { SettingsDialog } from '../components/SettingsDialog'
-import { applySettingsMigrations, makeRealSettings, PROVIDERS } from '../lib/settings'
+import { applySettingsMigrations, modelSettings, PROVIDERS } from '../lib/settings'
 
 debugEnableLicensing()
 
@@ -58,9 +58,9 @@ function InsideTldrawContext() {
 			const json = JSON.parse(value)
 			const migratedSettings = applySettingsMigrations(json)
 			localStorage.setItem('makereal_settings_2', JSON.stringify(migratedSettings))
-			makeRealSettings.set(migratedSettings)
+			modelSettings.set(migratedSettings)
 		}
-		const settings = makeRealSettings.get()
+		const settings = modelSettings.get()
 
 		for (const provider of PROVIDERS) {
 			const apiKey = settings.keys[provider.id]
