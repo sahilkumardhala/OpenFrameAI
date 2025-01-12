@@ -8,7 +8,7 @@ const DESCRIPTION = 'OpenFrameAI is a versatile, AI-powered platform designed to
 
 // const FACEBOOK_CARD = 'soc.webp'
 const THEME_COLOR = '#FFFFFF'
-const SITE_URL = 'https://OpenFrameAI-vercel.app'
+const SITE_URL = 'https://openfreamai.vercel.app'
 
 export const metadata: Metadata = {
 	metadataBase: new URL(SITE_URL),

@@ -6,13 +6,13 @@ const env =
 		  : 'development'
 
 export const LINK_HOST = {
-	production: 'makereal.tldraw.link',
+	production: 'openframeai.vercel.app.link',
 	preview: `link---${process.env.NEXT_PUBLIC_VERCEL_URL}`,
-	development: 'makereal-link.localhost:3000',
+	development: 'openframeai-link.localhost:3000',
 }[env]
 
 export const APP_HOST = {
-	production: 'makereal.tldraw.com',
+	production: 'openframeai.vercel.app',
 	preview: process.env.NEXT_PUBLIC_VERCEL_URL,
 	development: 'localhost:3000',
 }[env]

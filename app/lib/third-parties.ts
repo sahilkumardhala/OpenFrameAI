@@ -26,7 +26,7 @@ export async function createReplitProject(
 export function createStackBlitzProject(html: string) {
 	const stacklitzProject: Project = {
 		title: 'Make real from OpenFrameAI',
-		description: 'Your AI generated example made at https://OpenFrameAI-vercel.app/',
+		description: 'Your AI generated example made at https://openframeai.vercel.app/',
 		template: 'html',
 		files: { 'index.html': html },
 	}
@@ -36,7 +36,7 @@ export function createStackBlitzProject(html: string) {
 function createCodePenProject(html: string) {
 	const codePenProject = {
 		title: 'Make real from OpenFrameAI',
-		description: 'Your AI generated example made at https://OpenFrameAI-vercel.app/',
+		description: 'Your AI generated example made at https://openframeai.vercel.app/',
 		html,
 	}
 	return codePenProject

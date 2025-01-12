@@ -1,10 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	functions: {
-		'app/makereal.tldraw.com/api/**/*': {
-			maxDuration: 60, // All functions can run for a maximum of 120 seconds
-		},
-	},
-}
-
-module.exports = nextConfig
+	// If you need to configure Vercel serverless functions, this should be done 
+	// in vercel.json instead of next.config.js
+  }
+  
+  module.exports = nextConfig

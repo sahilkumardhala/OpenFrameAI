@@ -1,0 +1,7 @@
+{
+    "functions": {
+      "app/openframeai.vercel.app/api/**/*": {
+        "maxDuration": 60
+      }
+    }
+  }
