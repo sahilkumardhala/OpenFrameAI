@@ -13,27 +13,27 @@ export function Links() {
 				readonlyOk
 				icon="github"
 				onSelect={() => {
-					openUrl('https://github.com/tldraw/tldraw')
+					openUrl('https://github.com/sahilkumardhala/sahilkumardhala')
 				}}
 			/>
-			<TldrawUiMenuItem
+			{/* <TldrawUiMenuItem
 				id="twitter"
 				label="help-menu.twitter"
 				icon="twitter"
 				readonlyOk
 				onSelect={() => {
-					openUrl('https://twitter.com/tldraw')
+					openUrl('https://twitter.com/sahilkumardhala')
 				}}
-			/>
-			<TldrawUiMenuItem
+			/> */}
+			{/* <TldrawUiMenuItem
 				id="discord"
 				label="help-menu.discord"
 				icon="discord"
 				readonlyOk
 				onSelect={() => {
-					openUrl('https://discord.gg/SBBEVCA4PG')
+					openUrl('https://discord.gg/sahilkumardhala')
 				}}
-			/>
+			/> */}
 			<TldrawUiMenuItem
 				id="about"
 				label="About"

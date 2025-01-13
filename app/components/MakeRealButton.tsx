@@ -42,8 +42,8 @@ export function MakeRealButton() {
 				className="pt-2 pb-2 pr-2"
 				style={{ cursor: 'pointer', zIndex: 100000, pointerEvents: 'all' }}
 			>
-				<div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-					Start
+				<div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded">
+				Co-Work with OpenFrameAI
 				</div>
 			</button>
 		</div>
