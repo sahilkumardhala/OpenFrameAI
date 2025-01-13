@@ -16,24 +16,7 @@ export function Links() {
 					openUrl('https://github.com/sahilkumardhala/sahilkumardhala')
 				}}
 			/>
-			{/* <TldrawUiMenuItem
-				id="twitter"
-				label="help-menu.twitter"
-				icon="twitter"
-				readonlyOk
-				onSelect={() => {
-					openUrl('https://twitter.com/sahilkumardhala')
-				}}
-			/> */}
-			{/* <TldrawUiMenuItem
-				id="discord"
-				label="help-menu.discord"
-				icon="discord"
-				readonlyOk
-				onSelect={() => {
-					openUrl('https://discord.gg/sahilkumardhala')
-				}}
-			/> */}
+			
 			<TldrawUiMenuItem
 				id="about"
 				label="About"
@@ -41,7 +24,7 @@ export function Links() {
 				readonlyOk
 				onSelect={() => {
 					openUrl(
-						'https://tldraw.notion.site/Make-Real-FAQs-93be8b5273d14f7386e14eb142575e6e?pvs=4'
+						'https://github.com/sahilkumardhala/OpenFrameAI/blob/main/README.md'
 					)
 				}}
 			/>
